@@ -1,0 +1,6 @@
+docker build -t mi_imagen dir_con_dockerfile
+docker run -p 8080:80 --name myweb -d mi_imagen
+docker ps
+docker attach myweb
+docker -it (terminal)
+
